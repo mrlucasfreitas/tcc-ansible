@@ -9,3 +9,6 @@
 
 # Terraform
 eips.txt
+
+# Hosts.ini
+environments/aws/hosts.ini
