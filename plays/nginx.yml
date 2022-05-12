@@ -1,0 +1,6 @@
+---
+- name: Install nginx web server
+  hosts: webserver
+  roles:
+    - role: tcc-ansible
+      tags: nginx
