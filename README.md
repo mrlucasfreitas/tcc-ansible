@@ -16,7 +16,6 @@ Pode ser adicionado a quantidade de sites desejada com as configurações de sua
 
 ### nginx.conf
 
-A configuração do arquivo `nginx.conf` é definida [no template relacionado](templates/nginx.conf.j2).
 Customizações de campos específicos devem utilizar como referência as variáveis
 presentes em [defaults/main.yml](defaults/main.yml).
 
