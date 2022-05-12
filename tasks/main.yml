@@ -1,7 +1,4 @@
 ---
-- name: Executando scripts antes do deploy para gerar o hosts.ini
-  command: sh ../scripts/generate_hosts_ini.sh
-
 - include_vars: "{{ ansible_os_family }}.yml"
   name: Include OS variables
   tags: always
